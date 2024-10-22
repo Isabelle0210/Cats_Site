@@ -1,11 +1,10 @@
-
-export function NavBar() {
-    return (
-        <nav className="h-14 p-5">
-            <ul className="flex flex-row justify-between">
-                <li>Cats Search</li>
-                <li>Random Cats</li>
-                <li>Random Gifs</li>
+export function NavBar(){
+    return(
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/sobre">Sobre</a></li>
+                <li><a href="/contato">Contato</a></li>
             </ul>
         </nav>
     )
