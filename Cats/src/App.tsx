@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import { ThemeProvider } from './components/theme-provider';
+import { ModeToggle } from './components/mode-toggle';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div>
         <h1>Bem-vindo ao meu site!</h1>
         <Outlet /> {/* Aqui serão renderizadas as rotas filhas */}
+        <ModeToggle />
       </div>
     </ThemeProvider>
   );
